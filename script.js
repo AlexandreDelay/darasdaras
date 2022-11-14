@@ -61,7 +61,7 @@ const buttonHold = function () {
     document.getElementById(`score--${activePlayer}`).textContent =
       scores[activePlayer];
     // player wins
-    if (scores[activePlayer] > 20) {
+    if (scores[activePlayer] > 99) {
       document.getElementById(`current--${activePlayer}`).textContent =
         'You Win';
       diceEl.classList.add('hidden');
